@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@0,400;1,300&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --lightest: #fffaf0;
+    --white: #fffefc;
+    --darker: #2a2a2a;
+    --blue: #4a9ca4;
+    --orange: #c87331;
+    --danger: #bb0339;
+    --green: #027653;
+    --border: #0c0c0c;
+}
+
+.b-lightest {
+    background-color: var(--lightest);
+}
+
+.b-darker {
+    background-color: var(--darker);
+}
+
+.b-blue {
+    background-color: var(--blue);
+}
+
+.b-orange {
+    background-color: var(--orange);
+}
+
+.b-danger {
+    background-color: var(--danger);
+}
+
+.b-green {
+    background-color: var(--green);
+}

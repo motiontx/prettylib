@@ -1,0 +1,63 @@
+.p-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--lightest);
+    position: relative;
+    top: 0;
+    transition: top 0.2s, border-bottom-width 0.2s, box-shadow 0.2s;
+    outline: none;
+    border-radius: 0.2rem;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.3) rgba(0, 0, 0, 0.15);
+}
+
+.p-button.p-button--medium {
+    padding: 0.5rem;
+    border-bottom-width: 5px;
+    box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.8);
+}
+
+.p-button.p-button--small {
+    padding: 0.35rem;
+    border-bottom-width: 3px;
+    box-shadow: 0 3px 6px -3px rgba(0, 0, 0, 0.8);
+}
+
+.p-button.p-button--medium:active {
+    border-bottom-width: 1px;
+    top: 4px;
+    box-shadow: 0 1px 10px -5px rgba(0, 0, 0, 0.8);
+}
+
+.p-button.p-button--small:active {
+    border-bottom-width: 1px;
+    top: 2px;
+    box-shadow: 0 1px 6px -3px rgba(0, 0, 0, 0.8);
+}
+
+.p-button--medium.p-button--standard {
+    height: 2.8rem;
+}
+
+.p-button--medium.p-button--small {
+  height: 1.85rem;
+}
+
+.p-button--medium.p-button--standard .icon {
+    margin-right: 0.5rem;
+}
+
+.p-button--small.p-button--standard .icon {
+    margin-right: 0.35rem;
+}
+
+.p-button--medium.p-button--square {
+    width: 2.8rem;
+    height: 2.8rem;
+}
+
+.p-button--small.p-button--square {
+    width: 1.85rem;
+    height: 1.85rem;
+}

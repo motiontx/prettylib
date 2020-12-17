@@ -1,5 +1,7 @@
 import * as components from "./components";
 
+import "./style/global.css";
+
 const PrettyLib = {
   install(Vue) {
     for (const componentName in components) {
